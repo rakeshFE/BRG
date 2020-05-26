@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" class="href">
+    <link rel="icon" type="image/png" href="./img/goodidea.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <title>acrostia</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>acrostia</h1>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#" onclick=loadPage(1)>Home </a></li>
+            <li><a href="#" onclick=loadPage(2)>Services </a></li>
+            <li><a href="#" onclick=loadPage(3)>About </a></li>
+            <li><a href="#" onclick=loadPage(4)>Work </a></li>
+            <li><a href="#" onclick=loadPage(5)>Contacts </a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </nav>
+    <main>
+        <div id="home" class="main-container">
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <div class="item">
+                            <div class='inner-item'>
+                                <img class="d-block w-60" src="./img/goodidea.png" alt="First slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-60" src="https://source.unsplash.com/1400x500?nature,water" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-60" src="https://source.unsplash.com/1400x500?nature,flower" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+
+
+        <div id="service" class="main-container u-colorWhite">
+            <h1 class="align-center">Our Services</h1>
+            <h5 class="align-center">orem ipsum dolor, sit amet consectetur adipisicing elit. QuamL rem veritatis cum?
+                tae.</h5>
+            <h6 class="align-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptatum
+                beatae unde ab praesentium vitae aut fugit magni odit impedit rerum soluta iste a
+                quas nemo libero, necessitatibus reiciendis doloribus.</h6>
+            <div class="u-flex card-holder">
+                <div class="wc-card red-card u-flex">
+                    <img src="./img/idea.png" alt="Avatar" style="width:100%">
+                    <div class="wc-container align-center">
+                        <h4><b>Researching</b></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+                <div class="wc-card red-card u-flex">
+                    <img src="./img/wand.png" alt="Avatar" style="width:100%">
+                    <div class="wc-container align-center">
+                        <h4><b>Design</b></h4>
+                        <p>Autem nesciunt at animi magni natus veniam inventore aperiam cum, tenetur nihil adipisci</p>
+                    </div>
+                </div>
+                <div class="wc-card red-card u-flex">
+                    <img src="./img/gear.png" alt="Avatar" style="width:100%">
+                    <div class="wc-container align-center">
+                        <h4><b>Development</b></h4>
+                        <p>AAutem nesciunt at animi magni natus veniam inventore aperiam cum, tenetur nihil adipisci</p>
+                    </div>
+                </div>
+                <div class="wc-card red-card u-flex">
+                    <img src="./img/rocket.png" alt="Avatar" style="width:100%">
+                    <div class="wc-container align-center">
+                        <h4><b>Launch</b></h4>
+                        <p>Autem nesciunt at animi magni natus veniam inventore aperiam cum, tenetur nihil adipisci</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id="about" class="main-container u-colorWhite">
+
+            <h1 class="align-center u-uppercase">Who we are & what we do</h1>
+            <h5 class="align-center">orem ipsum dolor, sit amet consectetur adipisicing elit. QuamL rem veritatis cum?
+                tae.</h5>
+            <h6 class="align-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptatum
+                beatae unde ab praesentium vitae aut fugit magni odit impedit rerum soluta iste a
+                quas nemo libero, necessitatibus reiciendis doloribus.</h6>
+            <div class="u-flex  ">
+                <div class="meet-team"> Meet the team </div>
+            </div>
+            <div class="u-flex card-holder">
+                <div class="wc-card u-flex violet-card">
+                    <img src="./img/black-man.png" alt="Avatar" style="width:100%">
+                    <div class="wc-container align-center">
+                        <h6 class="u-uppercase u-colorViolet"><b>Anton petrov</b></h6>
+                        <p class="u-colorGreen">General Manager</p>
+                        <p class=" u-displayInline">
+                            <a href="#" class="sm-social-media linked-blue"></a>
+                            <a href="#" class="sm-social-media fb-blue"></a>
+                            <a href="#" class="sm-social-media twitter-blue"></a>
+                            <a href="#" class="sm-social-media google-blue"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="wc-card u-flex violet-card">
+                    <img src="./img/red_man.png" alt="Avatar" style="width:100%">
+                    <div class="wc-container align-center">
+                        <h6 class="u-uppercase u-colorViolet"><b>Kirl Donchev</b></h6>
+                        <p class="u-colorRed">Design Manager</p>
+                        <p class=" u-displayInline">
+                            <a href="#" class="sm-social-media linked-grey"></a>
+                            <a href="#" class="sm-social-media fb-grey"></a>
+                            <a href="#" class="sm-social-media twitter-grey"></a>
+                            <a href="#" class="sm-social-media google-grey"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="wc-card u-flex violet-card">
+                    <img src="./img/black-man.png" alt="Avatar" style="width:100%">
+                    <div class="wc-container align-center">
+                        <h6 class="u-uppercase u-colorViolet"><b>Anton petrov</b></h6>
+                        <p class="u-colorGreen">General Manager</p>
+                        <p class=" u-displayInline">
+                            <a href="#" class="sm-social-media linked-blue"></a>
+                            <a href="#" class="sm-social-media fb-blue"></a>
+                            <a href="#" class="sm-social-media twitter-blue"></a>
+                            <a href="#" class="sm-social-media google-blue"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="wc-card u-flex violet-card">
+                    <img src="./img/black-man.png" alt="Avatar" style="width:100%">
+                    <div class="wc-container align-center">
+                        <h6 class="u-uppercase u-colorViolet"><b>Anton petrov</b></h6>
+                        <p class="u-colorGreen">General Manager</p>
+                        <p class=" u-displayInline">
+                            <a href="#" class="sm-social-media linked-blue"></a>
+                            <a href="#" class="sm-social-media fb-blue"></a>
+                            <a href="#" class="sm-social-media twitter-blue"></a>
+                            <a href="#" class="sm-social-media google-blue"></a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="work" class="main-container">
+            <nav class="green-nav u-colorWhite">
+
+                <h2 class="u-uppercase">Portfolio</h2>
+
+
+                <ul class="u-colorWhite">
+                    <li><a href="#">All </a></li>
+                    <li><a href="#" class="selected">Photography </a></li>
+                    <li><a href="#">Logo Design </a></li>
+                    <li><a href="#">Web Design </a></li>
+                </ul>
+            </nav>
+
+            <div class="gallery card-holder">
+                <div class="row">
+                    <div class="column">
+                        <img src="/img/gallery1.png">
+                        <img src="/img/gallery2.png">
+                    </div>
+                    <div class="column">
+                        <img src="/img/gallery3.png">
+                        <img src="/img/gallery4.png">
+                    </div>
+                    <div class="column">
+                        <img src="/img/gallery5.png">
+                        <img src="/img/gallery6.png">
+                    </div>
+                    <div class="column">
+                        <img src="/img/gallery7.png">
+                        <img src="/img/gallery8.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="contact" class="main-container u-colorWhite ">
+
+            <h2 class="u-uppercase align-center">Contact Us</h2>
+            <p class="align-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nostrum similique aliquam voluptatum
+                impedit
+                qui corporis fuga facilis odit<br />
+                deserunt quasi error quaerat nobis eum, doloribus, nemo voluptate possimus sunt.
+            </p>
+            <div id="contact-container" class="u-flex equal-parts">
+
+                <div class="u-flex u-paddingBig">
+                    <address class="address-bar u-paddingBig">
+                        <h3>
+                            Address
+                        </h3>
+                        <p>
+                            Acrostia<br>
+                            Service Rd<br>
+                            Sevenrocks TN146, UK
+                        </p>
+
+                        <p>
+                            Phone: +44 555 555 555<br>
+                            Fax: +44 556 555 555<br>
+                            E-mail: info@acrostia.com<br>
+                            Skype: Acrostia
+                        </p>
+
+
+                    </address>
+
+                    <div class="map-bar">
+                        <img src="/img/map.png">
+                    </div>
+                </div>
+
+                <div class="enquiry u-paddingBig">
+                    <div class="contact-form">
+                        <h2>Ask a Question</h2>
+                        <div class="formGroup-item">
+                            <label for="firstName" class="formGroup-label u-colorGreenBlue">Name</label>
+                            <div class="formGroup-value">
+                                <input type="text" name="firstName" class="formGroup-value input-name ">
+
+                            </div>
+                        </div>
+                        <div class="formGroup-item ">
+                            <textarea class="u-colorGreenBlue qn-text">Your question</textarea>
+                        </div>
+                    </div>
+                    <div class="u-flex">
+                        <button class="submit-btn">Send</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="copyright u-flex">
+
+                <div>
+                    <a href="#" class="social-media fb"></a>
+                    <a href="#" class="social-media insta"></a>
+                    <a href="#" class="social-media twitter"></a>
+                    <a href="#" class="social-media watsapp"></a>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <script src='js/app.js'></script>
+</body>
+
+</html>
