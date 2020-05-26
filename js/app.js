@@ -29,28 +29,28 @@ function loadPage(identifier) {
     switch (identifier) {
 
         case 1:
-            bodyElement.style.backgroundImage = 'url(../img/home.png)';
+            bodyElement.style.backgroundImage = 'url(./img/home.png)';
 
             showHideDivs(1);
             break;
         case 2:
-            bodyElement.style.backgroundImage = 'url(../img/ourservices.png)';
+            bodyElement.style.backgroundImage = 'url(./img/ourservices.png)';
             showHideDivs(2);
             break;
         case 3:
-            bodyElement.style.backgroundImage = 'url(../img/about.png)';
+            bodyElement.style.backgroundImage = 'url(./img/about.png)';
             showHideDivs(3);
             break;
         case 4:
-            bodyElement.style.backgroundImage = 'url(../img/ourwork.png)';
+            bodyElement.style.backgroundImage = 'url(./img/ourwork.png)';
             showHideDivs(4);
             break;
         case 5:
-            bodyElement.style.backgroundImage = 'url(../img/contact.png)';
+            bodyElement.style.backgroundImage = 'url(./img/contact.png)';
             showHideDivs(5);
             break;
         default:
-            bodyElement.style.backgroundImage = 'url(../img/home.png)';
+            bodyElement.style.backgroundImage = 'url(./img/home.png)';
             showHideDivs(1);
             break;
     }
